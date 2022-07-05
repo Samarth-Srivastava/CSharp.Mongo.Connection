@@ -1,19 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.1;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.1;netstandard2.0;net6.0</TargetFrameworks>
     <PackageId>CSharp.Mongo.Connection</PackageId> 
-    <Version>2.1.0</Version> 
+    <Version>2.1.1</Version> 
     <Authors>Samarth Srivastava</Authors> 
     <PackageTags>C#, MongoDB</PackageTags> 
     <Description>This package will help in connecting c# projects to mongo db collection</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageIcon>icon.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
   </PropertyGroup>
 
  <ItemGroup>
     <None Include="assets\icon.png" Pack="true" PackagePath="\" />
+    <None Include="ReadMe.md" Pack="true" PackagePath="\"/>
 </ItemGroup>
 
   <ItemGroup>
